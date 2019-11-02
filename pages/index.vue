@@ -11,9 +11,9 @@
         we help you to keep your greens alive
       </h2>
       <div class="flex flex-col items-center justify-center">
-        <Button title="Sign in" link="/signIn" />
+        <Button link="/signIn">Sign in</Button>
         <p class="flex justify-center">or</p>
-        <Button title="Sign Up" link="/signUp" />
+        <Button link="/signUp">Sign Up</Button>
       </div>
     </div>
     <Nav />

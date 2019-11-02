@@ -4,17 +4,13 @@
     tag="button"
     :to="link"
   >
-    {{ title }}
+    <slot />
   </nuxt-link>
 </template>
 
 <script>
 export default {
   props: {
-    title: {
-      type: String,
-      default: ''
-    },
     link: {
       type: String,
       default: ''
