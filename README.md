@@ -20,3 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Mock
+
+To mock the plant identification API https://api.plant.id/ see the example requests in /mockdata/.

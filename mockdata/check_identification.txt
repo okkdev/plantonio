@@ -1,0 +1,137 @@
+POST https://api.plant.id/check_identifications
+
+{
+        "key": "wnLvOOWVRmDgyG83yc3AUVMxIdrimXrT8GCeIndwpxW7XAmGxK",
+        "ids": [541623],
+        "custom_ids": [123456],
+        "lang": "en"
+}
+
+RESPONSE:
+
+[
+	{
+		"id": 541623,
+		"custom_id": 123456,
+		"custom_url": "https://planton.io/custom_url",
+		"callback_url": "https://planton.io/callback",
+		"latitude": 47.5,
+		"longitude": 7.5,
+		"week": 44,
+		"created": 1572695937.228901,
+		"sent": 1572695937.0,
+		"classified": 1572695938.363776,
+		"images": [
+			{
+				"file_name": "e4a92aa6178a4cf599e1374d794eb87a.jpg",
+				"url": "https://plant.id/media/images/e4a92aa6178a4cf599e1374d794eb87a.jpg",
+				"url_small": "https://plant.id/media/images/e4a92aa6178a4cf599e1374d794eb87a_small.jpg",
+				"url_tiny": "https://plant.id/media/images/e4a92aa6178a4cf599e1374d794eb87a_tiny.jpg"
+			}
+		],
+		"suggestions": [
+			{
+				"id": 2809222,
+				"plant": {
+					"name": "Aloe",
+					"url": "https://en.wikipedia.org/wiki/Aloe",
+					"common_name": null
+				},
+				"probability": 0.4359131389681916,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809223,
+				"plant": {
+					"name": "Aloe vera",
+					"url": "http://en.wikipedia.org/wiki/Aloe_vera",
+					"common_name": null
+				},
+				"probability": 0.27824027911748195,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809224,
+				"plant": {
+					"name": "Aloe maculata",
+					"url": "http://davesgarden.com/guides/pf/go/54452/",
+					"common_name": null
+				},
+				"probability": 0.0630312584077168,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809225,
+				"plant": {
+					"name": "Aloe arborescens",
+					"url": "http://en.wikipedia.org/wiki/Aloe_arborescens",
+					"common_name": null
+				},
+				"probability": 0.026224786184308485,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809226,
+				"plant": {
+					"name": "Agave americana",
+					"url": "http://en.wikipedia.org/wiki/Agave_americana",
+					"common_name": null
+				},
+				"probability": 0.023985225947632544,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809227,
+				"plant": {
+					"name": "Haworthia attenuata",
+					"url": "http://davesgarden.com/guides/pf/go/1236/",
+					"common_name": null
+				},
+				"probability": 0.023697428066828532,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809228,
+				"plant": {
+					"name": "Aloe brevifolia",
+					"url": "http://en.wikipedia.org/wiki/Aloe_brevifolia",
+					"common_name": null
+				},
+				"probability": 0.013335740118040552,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			},
+			{
+				"id": 2809229,
+				"plant": {
+					"name": "Agave",
+					"url": "http://en.wikipedia.org/wiki/Agave",
+					"common_name": null
+				},
+				"probability": 0.011421440347732474,
+				"confidence": 0.9053993533180527,
+				"similar_images": null,
+				"confirmed": false
+			}
+		],
+		"parameters": [],
+		"feedback": null,
+		"secret": "W7VWbthiMtvgTxx",
+		"fail_cause": null,
+		"countable": true,
+		"source": "steiger.ruslan@gmail.com"
+	}
+]
