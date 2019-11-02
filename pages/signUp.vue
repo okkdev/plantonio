@@ -36,7 +36,7 @@
           />
         </label>
         <div class="flex flex-col items-center justify-center mt-3">
-          <Button title="Create Account" link="/overview" />
+          <Button link="/overview">Create Account</Button>
         </div>
       </form>
     </div>
