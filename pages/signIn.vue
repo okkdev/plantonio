@@ -21,7 +21,7 @@
           />
         </label>
         <div class="flex flex-col items-center justify-center mt-3">
-          <Button title="Sign In" link="/overview" />
+          <Button link="/overview">Sign In</Button>
         </div>
       </form>
     </div>
