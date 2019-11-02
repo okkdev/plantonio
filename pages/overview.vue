@@ -6,6 +6,7 @@
     />
     <CardLink
       title="My Plants"
+      link="/myPlants"
       img="https://images.unsplash.com/photo-1470049454586-e5301a4b53d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
     />
     <CardLink
