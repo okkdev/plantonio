@@ -1,35 +1,36 @@
 <template>
-  <div class="container">
+  <div>
+    <div class="flex justify-center m-16">
+      <Logo class="w-2/3 h-full" />
+    </div>
     <div>
-      <logo />
-      <h1 class="title">
-        plantonio
+      <h1 class="p-7 text-center uppercase tracking-wide text-5xl">
+        Our Idea
       </h1>
-      <h2 class="subtitle">
-        My majestic Nuxt.js project
+      <h2 class="p-5 text-center text-lg uppercase tracking-wide">
+        we help you to keep your greens alive
       </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <div class="flex flex-col items-center justify-center">
+        <Button title="Sign in" link="/signIn" />
+        <p class="flex justify-center">or</p>
+        <Button title="Sign Up" link="/signUp" />
       </div>
     </div>
+    <Nav />
   </div>
 </template>
 
 <script>
+import Nav from '~/components/Nav.vue'
 import Logo from '~/components/Logo.vue'
+import Button from '~/components/Button.vue'
 
 export default {
+  layout: 'indexlayout',
   components: {
-    Logo
+    Nav,
+    Logo,
+    Button
   }
 }
 </script>
