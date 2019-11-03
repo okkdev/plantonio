@@ -14,6 +14,11 @@ export default {
     CardLink
   },
   mounted() {
+    this.$OneSignal.push(() => {
+      this.$OneSignal.init()
+      this.$OneSignal.showNativePrompt()
+    })
+
     // Inside page components
     this.$OneSignal.push(() => {
       this.$OneSignal.isPushNotificationsEnabled((isEnabled) => {

@@ -51,14 +51,12 @@ export default {
     extend(config, ctx) {}
   },
   pwa: {
-    icons: {
-      iconSrc: '~/assets/Logo1.svg'
-    },
     manifest: {
       name: 'Plantonio',
       lang: 'en'
     },
     meta: {
+      name: 'Plantonio 🌺',
       mobileAppIOS: true
     }
   },
