@@ -1,3 +1,5 @@
 <template>
-  <nav></nav>
+  <nav class="p-8">
+    Blasdas
+  </nav>
 </template>

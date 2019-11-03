@@ -9,14 +9,10 @@
 
 <script>
 import CardLink from '~/components/CardLink.vue'
-import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    CardLink,
-    Nav
+    CardLink
   }
 }
 </script>
-
-<style></style>
