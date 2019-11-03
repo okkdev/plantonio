@@ -2,7 +2,7 @@ const axios = require('axios')
 
 const api = 'https://trefle.io/api/plants?scientific_name='
 
-const trefleKey = 'OFkwc2FiR2RYVGwxcFpPVEROOUJXZz09'
+const trefleKey = ''
 // const trefle_key = process.env.TREFLE_API_KEY
 
 const headers = {

@@ -3,7 +3,7 @@ const axios = require('axios')
 const identify = 'https://api.plant.id/identify'
 const check_identification = 'https://api.plant.id/check_identifications'
 
-const KEY = 'wnLvOOWVRmDgyG83yc3AUVMxIdrimXrT8GCeIndwpxW7XAmGxK'
+const KEY = ''
 
 exports.handler = async (event, context) => {
   const data = {
