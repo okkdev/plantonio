@@ -61,5 +61,14 @@ export default {
     meta: {
       mobileAppIOS: true
     }
+  },
+  oneSignal: {
+    init: {
+      appId: '1a2e8c0e-6cae-4d05-b99a-8daa5280987f',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+        disable: true
+      }
+    }
   }
 }

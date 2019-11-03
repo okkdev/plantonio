@@ -233,3 +233,6 @@ fabric.properties
 
 # Local Netlify folder
 .netlify
+
+# OneSignal SDK
+OneSignalSDK*
