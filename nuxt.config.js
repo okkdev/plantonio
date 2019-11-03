@@ -40,7 +40,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/onesignal', '@nuxtjs/pwa'],
   /*
    ** Build configuration
    */
@@ -49,5 +49,17 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  pwa: {
+    icons: {
+      iconSrc: '~/assets/Logo1.svg'
+    },
+    manifest: {
+      name: 'Plantonio',
+      lang: 'en'
+    },
+    meta: {
+      mobileAppIOS: true
+    }
   }
 }
