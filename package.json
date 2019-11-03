@@ -12,7 +12,9 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@tailwindcss/custom-forms": "^0.2.1",
     "@vue/composition-api": "^0.3.2",
     "faunadb": "^2.9.3",
     "nuxt": "^2.0.0"
