@@ -52,12 +52,16 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Plantonio',
-      lang: 'en'
+      name: 'Plantonio 🌺',
+      short_name: 'Plantonio',
+      lang: 'en',
+      display: 'standalone'
     },
     meta: {
       name: 'Plantonio 🌺',
-      mobileAppIOS: true
+      mobileAppIOS: true,
+      nativeUI: true,
+      theme_color: '#E6FFFA'
     }
   },
   oneSignal: {
