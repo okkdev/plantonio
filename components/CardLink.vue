@@ -5,8 +5,8 @@
     :to="link"
   >
     <h2 class="p-5 text-center text-lg uppercase tracking-wide">{{ title }}</h2>
-    <div class="h-48">
-      <img class="w-full h-full object-cover" :src="img" alt="" />
+    <div class="h-40 pb-2">
+      <img class="w-full h-full object-fit" :src="img" alt />
     </div>
   </nuxt-link>
 </template>
