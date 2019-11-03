@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-between px-6 py-2 shadow bg-white">
+  <nav class="flex items-center justify-between px-4 py-2 shadow bg-white">
     <BackButton />
     <h1>{{ title }}</h1>
   </nav>

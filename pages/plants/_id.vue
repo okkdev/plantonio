@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white p-1 m-1 rounded-sm shadow">
     <div class="h-48 m-3">
       <img class="w-full h-full object-cover" :src="currentPlant.img" alt />
     </div>
@@ -30,6 +30,11 @@
             :value="currentPlant.position"
           />
         </label>
+        <button
+          class="py-2 px-4 w-1/3 bg-teal-500 hover:bg-teal-400 text-teal-100 font-semibold rounded-sm shadow-md"
+        >
+          Save
+        </button>
       </form>
     </div>
   </div>

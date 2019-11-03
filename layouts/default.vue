@@ -1,8 +1,8 @@
 <template>
   <div class="h-screen">
-    <Header class="fixed bg-white top-0 inset-x-0 z-30" />
+    <Header class="fixed bg-teal-200 top-0 inset-x-0 z-30" />
     <nuxt class="mt-16" />
-    <Nav class="fixed inset-x-0 bottom-0 bg-white z-30" />
+    <Nav class="fixed inset-x-0 bottom-0 bg-teal-200 shadow z-30" />
   </div>
 </template>
 

@@ -16,19 +16,16 @@
         <Button link="/signUp">Sign Up</Button>
       </div>
     </div>
-    <Nav />
   </div>
 </template>
 
 <script>
-import Nav from '~/components/Nav.vue'
 import Logo from '~/components/Logo.vue'
 import Button from '~/components/Button.vue'
 
 export default {
   layout: 'indexlayout',
   components: {
-    Nav,
     Logo,
     Button
   }

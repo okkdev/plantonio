@@ -20,8 +20,8 @@
             placeholder="Password"
           />
         </label>
-        <div class="flex flex-col items-center justify-center mt-3">
-          <Button link="/overview">Sign In</Button>
+        <div class="flex justify-center mt-3">
+          <Button class="w-full" link="/overview">Sign In</Button>
         </div>
       </form>
     </div>
