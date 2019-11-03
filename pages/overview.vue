@@ -13,20 +13,15 @@
       title="My Progress"
       img="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80"
     />
-    <Nav />
   </div>
 </template>
 
 <script>
 import CardLink from '~/components/CardLink.vue'
-import Nav from '~/components/Nav.vue'
 
 export default {
   components: {
-    CardLink,
-    Nav
+    CardLink
   }
 }
 </script>
-
-<style></style>

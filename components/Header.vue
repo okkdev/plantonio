@@ -1,16 +1,16 @@
 <template>
-  <div class="flex justify-center p-6">
-    <Logo />
+  <nav class="flex items-center justify-between px-6 py-2 shadow bg-white">
+    <BackButton />
     <h1>{{ title }}</h1>
-  </div>
+  </nav>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import BackButton from '~/components/BackButton.vue'
 
 export default {
   components: {
-    Logo
+    BackButton
   },
   props: {
     title: {
